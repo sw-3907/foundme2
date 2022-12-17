@@ -151,7 +151,7 @@
     <!-- Begin Story #7 -->
  <div class="m-8">
   <div class="flex">
-   <a href="dg.html">
+   <a href="/dg.html">
     <button
      class="bg-sky-300 text-black active:bg-sky-500 
      font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
@@ -161,7 +161,7 @@
    >Daniela Galindo
    </button>
   </a>
-   <div class="text-white ml-4"><a href="dg.html">@WELOVETHESOUTHERSKY May 2021 - July 2021</a>
+   <div class="text-white ml-4"><a href="/dg.html">@WELOVETHESOUTHERSKY May 2021 - July 2021</a>
    </div>
  </div>
  </div>
@@ -241,8 +241,7 @@
    >Diego Trevino
    </button>
   </a>
-   <div class="text-white ml-4"><a href="/dtrevino.html">"the same force that inspired 
-     me to change my name was the same force that inspired me to stack speakers up."</a>
+   <div class="text-white ml-4"><a href="/dtrevino.html">"...making something that hints at something larger and is trying to get closer to a vague universal idea."</a>
    </div>
  </div>
  </div>
@@ -261,8 +260,7 @@
      >Sebastien Boncy
      </button>
     </a>
-     <div class="text-white ml-4"><a href="/sboncy.html">"the same force that inspired 
-       me to change my name was the same force that inspired me to stack speakers up."</a>
+     <div class="text-white ml-4"><a href="/sboncy.html">"We are the ship; all else the sea."</a>
      </div>
    </div>
    </div>
@@ -458,7 +456,7 @@
      >Liam Amadio
      </button>
     </a>
-     <div class="text-white ml-4"><a href="/liam.html">"Photography from around the way"</a>
+     <div class="text-white ml-4"><a href="/liam.html">"I think how I feel on a given day is mostly random or based on diet and has nothing to do with what's going on in my life"</a>
      </div>
    </div>
    </div>
@@ -657,16 +655,7 @@
       <tabl table>
         <tbody>
           <tr>
-            <!-- td width="326">
-              <a
-                href="https://www.esquire.com/food-drink/bars/a20717317/best-bars-america-2018/"
-                alt="Esquire's The Best Bars in America 2018"
-                ><img
-                  src="images/award-gifs-esquire.gif"
-                  height="50"
-                  alt="Esquire's The Best Bars in America 2018"
-              /></a>
-            </!-->
+           
             <td width="326">
               <marquee scrollamount="15" direction="left"
                 ><i
@@ -677,16 +666,7 @@
                 ></marquee
               >
             </td>
-            <!-- td width="326">
-              <a
-                href="https://www.timeout.com/san-francisco/bars/time-out-san-francisco-bar-awards-winners-2018"
-                alt="TimeOut SF Best New Bar 2018"
-                ><img
-                  src="images/award-gifs-timeout.gif"
-                  height="50"
-                  alt="TimeOut SF Best New Bar 2018"
-              /></a>
-            </!-->
+           
           </tr>
           <tr>
             <td width="326">
@@ -694,48 +674,33 @@
                 ><i>This magazine is now available in an online format</i></marquee
               >
             </td>
-            <!-- td width="326">
-              <a
-                href="https://projects.sfchronicle.com/top-100-restaurants/"
-                alt="SF Chronicle Top 100 Restaurants"
-                ><img
-                  src="images/award-gifs-chronicle.gif"
-                  height="50"
-                  alt="SF Chronicle Top 100 Restaurants"
-              /></a>
-            </!-->
+            
             <td width="326">
-              <marquee scrollamount="15" direction="right"
-                ><a
-                  href="#"
-                  >Click to read a random story</a>
+              <marquee scrollamount="9" direction="right"
+                >
+
+                  <a id="random-link" href="#">Click to read a random story</a>
+
+<script>
+  const randomLink = () => {
+    const links = [
+      "/liam.html",
+      "/blues.html",
+      "/dg.html"
+    ];
+    const randomIndex = Math.floor(Math.random() * links.length);
+    document.getElementById("random-link").href = links[randomIndex];
+  };
+  document.getElementById("random-link").addEventListener("click", randomLink);
+</script>
+
                 </marquee>
               
             </td>
           </tr>
 
           <tr>
-            <!-- td>
-              <marquee scrollamount="2" direction="up"
-                ><a
-                  href="https://www.sfchronicle.com/restaurants/article/2018-Bar-Stars-13447581.php"
-                  >Read the different articles</a
-                ></marquee
-              >
-            </!-->
-            <!-- td>
-              <marquee scrollamount="2" direction="down"
-                >Idea Fund Recipient, 2021</marquee
-              >
-            </!-->
-            <!-- td>
-              <marquee scrollamount="2" direction="up"
-                ><a
-                  href="https://www.theworlds50best.com/discovery/Establishments/US/San-Francisco/True-Laurel.html"
-                  >5O Best Bars Discovery</a
-                ></marquee
-              >
-            </td !-->
+            
           </tr>
         </tbody>
       </table>
