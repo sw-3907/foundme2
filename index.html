@@ -8,50 +8,91 @@
     <title>found me 2</title>
   </head>
   <body style="background-color: rgb(117, 174, 247)">
-    <!-- div style="position:absolute;left:40px;" !-->
       <br /><br />
       <br /><br />
 
-      <img src="images/fm-transLogo.png" alt="" class="max-w-full md:max-w-3xl h-auto p-0 pb-20">
+      <img src="images/fm-transLogo.png" alt="" class="max-w-full mx-auto md:max-w-3xl h-auto p-0 pb-20">
 
-       <div class="flex space-x-8 pl-8 pb-10 max-w-2xl justify-between">
-        <a href="https://foundmemag.bandcamp.com/merch/found-me-magazine-issue-2">
-        <button
-             class="bg-white text-purple-800 active:bg-slate-800 
-             font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
-             hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
-             transition-all duration-150 --animate-wiggle"
-             type="button"
-           >buy a copy
-      </button>
-      </a>
-        
-      <a href="https://foundmemag.bandcamp.com/merch/found-me-logo-t-shirt">
-        <button
-          class="bg-white text-purple-600 active:bg-slate-800 
-          font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
-          hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
-          transition-all duration-150 --animate-wiggle"
-          type="button"
-        >shirts
-        </button>
-       </a>
+      <div class="flex items-center justify-center">
+        <div class="inline-flex --shadow-md --hover:shadow-lg --focus:shadow-lg" role="group">
+          <a href="https://foundmemag.bandcamp.com/merch/found-me-magazine-issue-2">
+            <button
+                 class="bg-white text-purple-700 active:bg-slate-800 
+                 font-bold uppercase text-sm px-8 py-3 mx-4 rounded shadow 
+                 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
+                 transition-all duration-150 --animate-wiggle"
+                 type="button"
+               >buy a copy
+          </button>
+          </a>          
+          <a href="https://foundmemag.bandcamp.com/merch/found-me-logo-t-shirt">
+            <button
+              class="bg-white text-purple-700 active:bg-slate-800 
+              font-bold uppercase text-sm px-8 py-3 mx-4 rounded shadow 
+              hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
+              transition-all duration-150 --animate-wiggle"
+              type="button"
+            >Merch
+            </button>
+           </a>          
+           <a href="about.html">
+            <button
+              class="bg-white text-purple-700 active:bg-slate-800 
+              font-bold uppercase text-sm px-8 py-3 mx-4 rounded shadow 
+              hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
+              transition-all duration-150 --animate-wiggle"
+              type="button"
+            >About
+            </button>
+           </a>        
+          </div>
+      </div>
+<br><br><br>
 
-       <a href="https://fattonyrap.bandcamp.com/">
-        <button
-          class="bg-white text-purple-600 active:bg-slate-800 
-          font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
-          hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
-          transition-all duration-150 --animate-wiggle"
-          type="button"
-        >bandcamp
-        </button>
-       </a>
-       </div>
+<td width="326">
+  <marquee scrollamount="12" direction="right"
+    >
+
+      <a id="random-link" href="#" class="text-2xl text-white">Click this sentence to view a random article.</a>
+
+<script>
+const randomLink = () => {
+const links = [
+"liam.html",
+"blues.html",
+"jzelaya.html",
+"syesw.html",
+"judee.html",
+"flyger.html",
+"iday.html",
+"kam.html",
+"mn.html",
+"accident.html",
+"dtrevino.html",
+"madeinhouston.html",
+"sammus.html",
+"blackie.html",
+"2015.html",
+"about.html",
+"dg.html",
+"bouquet.html",
+"bria.html",
+"ppII.html"
+];
+const randomIndex = Math.floor(Math.random() * links.length);
+document.getElementById("random-link").href = links[randomIndex];
+};
+document.getElementById("random-link").addEventListener("click", randomLink);
+</script>
+</marquee>
+
+       <br>
+       <br>
+       <br>
 
       <!-- Begin Story #1 -->
-      <div class="m-10 md:8 lg:6 pt-10">
-      <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+      <div class="m-8">
+      <div class="flex">
         <a href="blackie.html">
         <button
           class="bg-stone-900 text-white active:bg-stone-600 
@@ -72,7 +113,7 @@
 
         <!-- Begin Story #2 -->
         <div class="m-8">
-          <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+          <div class="flex">
             <a href="Alia.html">
           <button
             class="bg-orange-500 text-indigo-700 active:bg-orange-600 
@@ -91,7 +132,7 @@
 
  <!-- Begin Story #3 -->
  <div class="m-8">
-  <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+  <div class="flex">
     <a href="judee.html">
   <button
     class="bg-amber-200 text-black active:bg-amber-300 
@@ -112,7 +153,7 @@
 
  <!-- Begin Story #4 -->
  <div class="m-8">
-  <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+  <div class="flex">
     <a href="give.html">
     <button
      class="bg-emerald-500 text-cyan-800 active:bg-emerald-300 
@@ -132,7 +173,7 @@
 
  <!-- Begin Story #5 -->
  <div class="m-8">
-  <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+  <div class="flex ">
     <a href="bouquet.html">
     <button
      class="bg-yellow-400 text-red-600 active:bg-yellow-500 
@@ -151,9 +192,9 @@
  <!-- End Story #5 -->
 
  <p>
- <!-- <a href="bouquet.html"> -->
+ <a href="bouquet.html">
  <img src="images/Bunnys/9BBouquet.jpg" alt="" class="m-10
-  shadow-xl rounded-xl  max-w-xs --mx-auto --animate-wiggle hover:scale-110">
+  shadow-xl rounded-xl  max-w-xs mx-auto --animate-wiggle hover:scale-110 transition duration-700 ease-in-out">
 </a>
 </p>
 
@@ -178,8 +219,7 @@
    <!-- End Story #6 -->
 
     <!-- Begin Story #7 -->
- <div class="m-8">
-  <div class="flex">
+ <div class="m-8 flex">
    <a href="dg.html">
     <button
      class="bg-sky-300 text-black active:bg-sky-500 
@@ -193,7 +233,7 @@
    <div class="text-white ml-4"><a href="dg.html">@WELOVETHESOUTHERNSKY</a>
    </div>
  </div>
- </div>
+
  <!-- End Story #7 -->
 
   <!-- Begin Story #8 -->
@@ -219,7 +259,7 @@
 
     <!-- Begin Story #9 -->
  <div class="m-8">
-  <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+  <div class="flex">
     <a href="blues.html">
     <button
      class="bg-amber-500 text-cyan-800 active:bg-amber-300 
@@ -230,7 +270,7 @@
    >Blues From the Bottom
    </button>
   </a>
-   <div class="text-white ml-4"><a href="blues.html">While Albert Collins attended Jack Yates High School in Third Ward, he began playing with Gatemouth. Famously known as “The Iceman” and “The Master of the Telecaster”, Collins got his first band together at 18, the Rhythm Rockers, which included a young Johnny Clyde Copeland.</a>
+   <div class="text-white ml-4"><a href="blues.html">"While Albert Collins attended Jack Yates High School in Third Ward, he began playing with Gatemouth. Famously known as “The Iceman” and “The Master of the Telecaster”, Collins got his first band together at 18, the Rhythm Rockers, which included a young Johnny Clyde Copeland."</a>
    </div>
  </div>
  </div>
@@ -238,7 +278,7 @@
 
   <!-- Begin Story #10 -->
   <div class="m-8">
-    <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+    <div class="flex">
       <a href="jzelaya.html">
       <button
        class="bg-sky-300 text-cyan-800 active:bg-emerald-600 
@@ -257,7 +297,7 @@
 
     <!-- Begin Story #11 -->
  <div class="m-8">
-  <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+  <div class="flex">
     <a href="dtrevino.html">
     <button
      class="bg-cyan-500 text-black active:bg-cyan-300 
@@ -275,9 +315,9 @@
  <!-- End Story #11 -->
 
  <p>
- <!-- <a href="blues.html"> -->
+ <a href="blues.html">
   <img src="images/blues/Little_Joe_Washington 1.png" alt="" class="m-10
-   shadow-xl rounded-xl  max-w-xs mx-auto">
+   shadow-xl rounded-xl  max-w-xs mx-auto hover:scale-110 transition duration-700 ease-in-out">
  </a>
 </p>
 
@@ -300,11 +340,9 @@
    </div>
    <!-- End Story #12 -->
 
-   
-
   <!-- Begin Story #14 -->
   <div class="m-8">
-    <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+    <div class="flex">
       <a href="mn.html">
       <button
        class="bg-orange-500 text-slate-800 active:bg-orange-300 
@@ -361,7 +399,7 @@
 
    <!-- Begin Story #17 -->
   <div class="m-8">
-    <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+    <div class="flex">
       <a href="jgonzalez.html">
       <button
        class="bg-blue-700 text-white active:bg-slate-900 
@@ -380,15 +418,15 @@
    <!-- End Story #17 -->
 
    <p>
-    <!-- <a href="blues.html"> -->
+    <a href="sboncy.html">
      <img src="images/boncy/Boncy-7840.jpeg" alt="" class="m-10
-      shadow-xl rounded-xl  max-w-xs --mx-auto">
+      shadow-xl rounded-xl  max-w-xs mx-auto hover:scale-110 transition duration-700 ease-in-out">
     </a>
    </p>
 
    <!-- Begin Story #18 -->
   <div class="m-8">
-    <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+    <div class="flex">
       <a href="kam.html">
       <button
        class="bg-rose-400 text-black active:bg-rose-600 
@@ -408,7 +446,7 @@
 
    <!-- Begin Story #19 -->
   <div class="m-8">
-    <div class="flex flex-col space-y-8 md:flex-row md:space-x-8">
+    <div class="flex">
       <a href="accident.html">
       <button
        class="bg-orange-500 text-slate-800 active:bg-white
@@ -419,7 +457,7 @@
      >The Accident
      </button>
     </a>
-     <div class="text-white ml-4"><a href="accident.html">By Ronald Jones. "I was biking through Downtown as I had been almost 
+     <div class="text-white ml-4"><a href="accident.html">BY RONALD JONES. "I was biking through Downtown as I had been almost 
       every night that week. It was Thursday and I felt that I may have been a bit too active, but wanted to continue 
       the streak of night time photography and positive conversations."</a>
      </div>
@@ -459,16 +497,16 @@
      >Stephen Wilson
      </button>
     </a>
-     <div class="text-white ml-4"><a href="syesw.html">One Poem, Six Photographs: Houston, Rotterdam, Kyoto, Oakland</a>
+     <div class="text-white ml-4"><a href="syesw.html">One Poem, Nine Photographs: Houston, Rotterdam, Kyoto, Oakland</a>
      </div>
    </div>
    </div>
    <!-- End Story #21 -->
 
    <p>
-    <!-- <a href="blues.html"> -->
+    <a href="liam.html">
      <img src="images/liam/r002-022.jpg" alt="" class="m-10
-      shadow-xl rounded-xl  max-w-xs mx-auto animate-wiggle">
+      shadow-xl rounded-xl  max-w-md mx-auto --animate-wiggle hover:scale-110 transition duration-700 ease-in-out">
     </a>
    </p>
 
@@ -485,7 +523,7 @@
      >Made In Houston
      </button>
     </a>
-     <div class="text-white ml-4"><a href="madeinhouston.html">"I've always been the most devious thief of my own joy." By Zach McKenzie</a>
+     <div class="text-white ml-4"><a href="madeinhouston.html">"I've always been the most devious thief of my own joy." BY ZACH MCKENZIE</a>
      </div>
    </div>
    </div>
@@ -548,13 +586,12 @@
    </div>
    <!-- End Story #25 -->
 
-<br />
-<br />
-<br />
-
 <!-- footer -->
-<div class="flex space-x-8 pl-10 pb-10 max-w-2xl">
-  <a href="https://foundmemag.bandcamp.com/merch/found-me-magazine-issue-2">
+<!-- <div class="flex flex-col space-y-10 items-center justify-center pb-10
+ md:flex-row md:justify-between"> -->
+
+<!-- <div class="flex space-x-8 pl-10 pb-10 max-w-2xl"> -->
+  <!-- <a href="https://foundmemag.bandcamp.com/merch/found-me-magazine-issue-2">
   <button
        class="bg-black text-white active:bg-slate-800 
        font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
@@ -563,9 +600,9 @@
        type="button"
      >buy a copy
 </button>
-</a>
+</a> -->
   
-<a href="https://foundmemag.bandcamp.com/merch/found-me-logo-t-shirt">
+<!-- <a href="https://foundmemag.bandcamp.com/merch/found-me-logo-t-shirt">
   <button
     class="bg-black text-white active:bg-slate-800 
     font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
@@ -574,9 +611,9 @@
     type="button"
   >shirts
   </button>
- </a>
+ </a> -->
 
-  <a href="about.html">
+  <!-- <a href="about.html">
   <button
        class="bg-black text-white active:bg-slate-800 
        font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
@@ -585,9 +622,9 @@
        type="button"
      >About
      </button>
-    </a>
+    </a> -->
 
-     <a href="https://foundmemag.substack.com/subscribe?utm_source=menu&simple=true&next=https%3A%2F%2Ffoundmemag.substack.com%2Farchive">
+     <!-- <a href="https://foundmemag.substack.com/subscribe?utm_source=menu&simple=true&next=https%3A%2F%2Ffoundmemag.substack.com%2Farchive">
      <button
        class="bg-black text-white active:bg-slate-800 
        font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
@@ -596,20 +633,20 @@
        type="button"
      >opt in
      </button>
-    </a>
+    </a> -->
 
-     <a href="https://www.instagram.com/foundmemag/">
+     <!-- <a href="https://www.instagram.com/foundmemag/">
       <button
         class="bg-black text-white active:bg-slate-800 
-        font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
+        font-bold uppercase text-sm px-6 py-3 --rounded-full shadow 
         hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
         transition-all duration-150 --animate-wiggle"
         type="button"
       >instagram
       </button>
-     </a>
+     </a> -->
 
-     <a href="https://fattonyrap.bandcamp.com/">
+     <!-- <a href="https://fattonyrap.bandcamp.com/">
       <button
         class="bg-black text-white active:bg-slate-800 
         font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
@@ -618,9 +655,19 @@
         type="button"
       >fat tony
       </button>
-     </a>
-  </div>
+     </a> -->
 
+     <!-- <a href="https://theredbackpack.substack.com">
+      <button
+        class="bg-black text-white active:bg-slate-800 
+        font-bold uppercase text-sm px-6 py-3 rounded-full shadow 
+        hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear 
+        transition-all duration-150 --animate-wiggle"
+        type="button"
+      >Theredbackpack
+      </button>
+     </a> -->
+  </div>
 
    <!-- Back to Top button -->
    <!-- <button id="to-top-button" onclick="goToTop()" title="Go To Top"
@@ -646,169 +693,10 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 </script> -->
- 
-      <!-- div
-        class="py-24 flex flex-col md:flex-row items-center justify-center space-x-8"
-      >
-        <div class="w-36 h-36 bg-red-600 rounded-full"></div>
-        <div class="w-24 h-24 bg-red-500 rounded-full"></div>
-        <div class="w-12 h-12 bg-red-400 rounded-full"></div>
-      </!-->
-
-      <!-- Begin mc_embed_signup -->
-      
-      <!-- form
-        action="https://lazybearsf.us2.list-manage.com/subscribe/post?u=337045649008a1d12a93defba&amp;id=e3af799c86"
-        method="post"
-        id="mc-embedded-subscribe-form"
-        name="mc-embedded-subscribe-form"
-        class="validate"
-        target="_blank"
-        novalidate=""
-      >
-        <div id="mc_embed_signup_scroll">
-          <div class="mc-field-group">
-            <img src="images/peasoup.png" />&nbsp;&nbsp;&nbsp;join our email
-            list:
-            <input
-              type="email"
-              value="email"
-              name="EMAIL"
-              class="required email"
-              id="mce-EMAIL"
-            />
-            <input
-              type="text"
-              value="first name"
-              name="FNAME"
-              class=""
-              id="mce-FNAME"
-            />
-            <input
-              type="submit"
-              value="subscribe"
-              name="subscribe"
-              id="mc-embedded-subscribe"
-              class="button"
-            />
-          </div>
-          <div id="mce-responses" class="clear">
-            <div
-              class="response"
-              id="mce-error-response"
-              style="display: none"
-            ></div>
-            <div
-              class="response"
-              id="mce-success-response"
-              style="display: none"
-            ></div>
-          </div>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <!-- <div style="position: absolute; left: -5000px" aria-hidden="true">
-            <input
-              type="text"
-              name="b_337045649008a1d12a93defba_e3af799c86"
-              tabindex="-1"
-              value=""
-            />
-          </div> -->
-        </!-->
-      </!-->
-      <!--End mc_embed_signup-->
-
-    
-
-      <!--Marquee section-->
-      <tabl table>
-        <tbody>
-          <tr>
-           
-            <td width="326">
-              <marquee scrollamount="13" direction="left"
-                >
-                  This project is made possible with support from The Idea Fund.
-                  
-                </marquee
-              >
-            </td>
-           
-          </tr>
-          <tr>
-
-            <!-- td width="326">
-              <marquee scrollamount="13" direction="right"
-                ><i>This magazine is now available in an online format</i></marquee
-              >
-            </! -->
-            <br>
-            <br>
-
-            <td width="326">
-              <marquee scrollamount="9" direction="right"
-                >
-
-                  <a id="random-link" href="#">Click this sentence to view a random article.</a>
-
-<script>
-  const randomLink = () => {
-    const links = [
-      "liam.html",
-      "blues.html",
-      "jzelaya.html",
-      "syesw.html",
-      "judee.html",
-      "flyger.html",
-      "iday.html",
-      "kam.html",
-      "mn.html",
-      "accident.html",
-      "dtrevino.html",
-      "madeinhouston.html",
-      "sammus.html",
-      "blackie.html",
-      "2015.html",
-      "about.html",
-      "dg.html"
-    ];
-    const randomIndex = Math.floor(Math.random() * links.length);
-    document.getElementById("random-link").href = links[randomIndex];
-  };
-  document.getElementById("random-link").addEventListener("click", randomLink);
-</script>
-
-                </marquee>
-              
-            </td>
-          </tr>
-
-          <tr>
-            
-          </tr>
-        </tbody>
-      </table>
-
-      <br /><br /><br /><br /><br />
+     
+                <marquee scrollamount="13" direction="left" class="text-white text-2xl p-10 pb-16">
+                    This project is made possible with support from The Idea Fund. 
+                  </marquee>
     </div>
-    <br />
-
-    <!-- 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <h1 class="h1 text-3xl text-white">
-      <a href="https://www.nytimes.com/">Found Me Magazine Release Date January, 2022</a>
-    </h1>
-    <h1 class="h1 text-3xl text-white">
-      <a href="https://www.nytimes.com/">A Simple</a>
-    </h1>
-    <h1 class="h1 text-3xl text-white">
-      <a href="https://www.nytimes.com/">Tagline</a>
-    </h1>
-    <h1 class="h1 text-3xl text-white">
-      <a href="https://www.nytimes.com/">To Get Started</a>
-    </h1> -->
   </body>
 </html>
