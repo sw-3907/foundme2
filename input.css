@@ -10,6 +10,9 @@
   @apply p-6 pt-0 max-w-4xl text-xl font-serif;
 }
 
+.btn-blrb {
+  @apply flex flex-col md:flex-row;
+}
 
 @font-face {
   font-family: "Zipper";
