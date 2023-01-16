@@ -734,10 +734,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
@@ -1773,10 +1769,6 @@ video {
 }
 
 @media (min-width: 480px) {
-  .sm\:pl-8 {
-    padding-left: 2rem;
-  }
-
   .sm\:text-left {
     text-align: left;
   }
